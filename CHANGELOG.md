@@ -7,5 +7,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-- [otbr-monitor](https://gitlab.com/prpl-foundation/components/iot/otbr-monitor): Component added
+
+## Release honister_v0.0.2 - 2024-12-20(11:35:02 +0000)
 
