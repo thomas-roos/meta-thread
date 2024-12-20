@@ -5,7 +5,7 @@ SRCREV = "v1.0.3"
 
 S = "${WORKDIR}/git"
 
-inherit pkgconfig
+inherit pkgconfig config-thread
 
 SUMMARY = "This service has reponsibilities to start and monitor otbr-agent process"
 LICENSE += "BSD-2-Clause-Patent & SAH"

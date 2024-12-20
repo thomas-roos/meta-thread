@@ -2,7 +2,7 @@ SRC_URI = "git://gitlab.com/prpl-foundation/components/iot/thread/otbr-monitor.g
 SRCREV = "v1.0.2"
 S = "${WORKDIR}/git"
 
-inherit pkgconfig config-amx
+inherit pkgconfig config-thread config-amx
 
 SUMMARY = "OTBR monitor, launching and restarting openthread border router"
 LICENSE += "BSD-2-Clause-Patent"
