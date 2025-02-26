@@ -1,6 +1,6 @@
 require recipes-core/images/image-lcm-container-minimal.bb
 
-SUMMARY = "Iot LCM container for prpl with matter and thread for dongle" 
+SUMMARY = "Iot LCM container for prpl with matter and thread for dongle"
 LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/COPYING.MIT;md5=3da9cfbcb788c80a0384361b4de20420"
 
@@ -18,11 +18,11 @@ IMAGE_INSTALL += "\
 
 IMAGE_FEATURES:remove = "usp-base"
 
-# IMAGE_INSTALL:append:develop += "\
+# IMAGE_INSTALL:append:develop = "\
 #     strace procps gdb valgrind tcpdump binutils nano sshserver \
 # "
 
-# IMAGE_INSTALL:append:release += "\
+# IMAGE_INSTALL:append:release = "\
 #     ssh \
 # "
 
